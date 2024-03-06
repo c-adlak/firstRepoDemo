@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.div1 {
+  background-image: url(../../Media/Images/bg1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div2 {
+  background-image: url(../../Media/Images/mustang.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div3 {
+  background-image: url(../../Media/Images/car1.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+}

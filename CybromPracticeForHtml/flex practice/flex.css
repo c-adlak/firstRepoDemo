@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  display: flex;
+  background-color: rgb(203, 94, 191);
+  height: 100vh;
+  width: 100%;
+  /* justify-content this is used for do operations on row  */
+  justify-content: flex-start;
+  /* align-items this is used for do operations on column  */
+  align-items: flex-end;
+}
+.ch1 {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  display: flex;
+  /* justify-content this is used for do operations on row  */
+  justify-content: flex-start;
+  /* align-items this is used for do operations on column  */
+  align-items: center;
+  border-radius: 50%;
+}
+.ch2 {
+  height: 150px;
+  width: 150px;
+  background-color: blanchedalmond;
+  display: flex;
+  /* justify-content this is used for do operations on row  */
+  justify-content: flex-start;
+  /* align-items this is used for do operations on column  */
+  align-items: center;
+  border-radius: 50%;
+}
+.ch3 {
+  height: 70px;
+  width: 70px;
+  background-color: blue;
+  border-radius: 50%;
+}

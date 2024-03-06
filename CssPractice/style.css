@@ -1,0 +1,20 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+h3 {
+  color: brown;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.h-4 {
+  background-color: red;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}

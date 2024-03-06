@@ -1,0 +1,40 @@
+.box {
+  background-color: rgb(251, 249, 247);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  /* animation: box-animation 6 timing-function delay infinite direction fill-mode; */
+  animation-name: box-animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box-animation {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  20% {
+    top: 0;
+    left: 900px;
+    border-radius: 50%;
+    background-color: rgb(25, 124, 211);
+  }
+  40% {
+    top: 500px;
+    left: 900px;
+    border-radius: 50%;
+    rotate: 360deg;
+    scale: 2;
+    background-color: black;
+  }
+  60% {
+    top: 500px;
+    left: 0;
+    background-color: brown;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}

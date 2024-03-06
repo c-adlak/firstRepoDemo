@@ -1,0 +1,11 @@
+.parent {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+#counter {
+  display: block;
+  align-items: center;
+  font-size: 50px;
+}

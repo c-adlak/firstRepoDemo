@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+h1::before {
+  content: "hey this is ";
+  color: bisque;
+}
+h1::after {
+  content: " for html";
+  color: aquamarine;
+}
+p::first-line {
+  color: cadetblue;
+  font-weight: 600;
+  font-size: 30px;
+}
+p::first-letter {
+  font-size: 8 0px;
+}

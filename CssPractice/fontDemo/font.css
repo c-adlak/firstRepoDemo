@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.h {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: rgb(20, 20, 20);
+  text-shadow: 5px 5px 10px rgb(223, 194, 120);
+  color: gold;
+  word-spacing: 5px;
+  padding: 30px;
+}
+.para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  word-spacing: 5px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
